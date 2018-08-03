@@ -25,3 +25,13 @@
 - (UIImageView *)imageViewContentMode:(UIViewContentMode)contentMode;
 
 @end
+
+@interface UILabel (UIFactory)
+
+- (UILabel *)labelFont:(UIFont *)font;
+- (UILabel *)labelText:(NSString *)text;
+- (UILabel *)labelTextColor:(UIColor *)color;
+- (UILabel *)labelNumberOfLines:(NSInteger)number;
+- (UILabel *)labelTextAlignment:(NSTextAlignment)alignment;
+
+@end

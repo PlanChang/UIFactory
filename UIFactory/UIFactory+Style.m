@@ -55,3 +55,36 @@
 }
 
 @end
+
+@implementation UILabel (UIFactory)
+
+- (UILabel *)labelFont:(UIFont *)font
+{
+    self.font = font;
+    return self;
+}
+
+- (UILabel *)labelText:(NSString *)text
+{
+    self.text = text;
+    return self;
+}
+
+- (UILabel *)labelTextColor:(UIColor *)color
+{
+    self.textColor = color;
+    return self;
+}
+
+- (UILabel *)labelNumberOfLines:(NSInteger)number
+{
+    self.numberOfLines = number;
+    return self;
+}
+
+- (UILabel *)labelTextAlignment:(NSTextAlignment)alignment
+{
+    self.textAlignment = alignment;
+    return self;
+}
+@end

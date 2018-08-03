@@ -21,4 +21,6 @@
 + (UIImageView *)imageViewWithFrame:(CGRect)frame;
 + (UIImageView *)imageViewWithImage:(UIImage *)image;
 
+//label
++ (UILabel *)label;
 @end
