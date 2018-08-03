@@ -19,6 +19,9 @@
 
 @interface UIImageView (UIFactory)
 
-
+- (UIImageView *)imageViewFrame:(CGRect)frame;
+- (UIImageView *)imageViewBackgroundColor:(UIColor *)color;
+- (UIImageView *)imageViewImage:(UIImage *)image;
+- (UIImageView *)imageViewContentMode:(UIViewContentMode)contentMode;
 
 @end

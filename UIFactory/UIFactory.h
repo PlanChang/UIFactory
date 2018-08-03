@@ -16,4 +16,9 @@
 + (UIView *)viewWithFrame:(CGRect)frame;
 + (UIView *)viewWithBackgroundColor:(UIColor *)backgroundColor;
 
+//imageView
++ (UIImageView *)imageView;
++ (UIImageView *)imageViewWithFrame:(CGRect)frame;
++ (UIImageView *)imageViewWithImage:(UIImage *)image;
+
 @end
