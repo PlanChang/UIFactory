@@ -11,7 +11,6 @@
 @interface UIFactory : NSObject
 
 //view
-
 + (UIView *)view;
 + (UIView *)viewWithFrame:(CGRect)frame;
 + (UIView *)viewWithBackgroundColor:(UIColor *)backgroundColor;
@@ -23,4 +22,13 @@
 
 //label
 + (UILabel *)label;
+
+//button
++ (UIButton *)button;
+
+//tableView
++ (UITableView *)tableViewWithStyle:(UITableViewStyle)style;
++ (UITableView *)tableViewWithPlainStyle;
++ (UITableView *)tableViewWithGroupedStyle;
+
 @end
