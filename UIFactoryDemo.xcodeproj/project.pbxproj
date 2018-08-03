@@ -14,6 +14,7 @@
 		4450D9002113F63B00B282E4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4450D8FE2113F63B00B282E4 /* LaunchScreen.storyboard */; };
 		4450D9032113F63B00B282E4 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4450D9022113F63B00B282E4 /* main.m */; };
 		4450D90C2113F76000B282E4 /* UIFactory.m in Sources */ = {isa = PBXBuildFile; fileRef = 4450D90B2113F76000B282E4 /* UIFactory.m */; };
+		4450D90F2114001D00B282E4 /* UIFactory+Style.m in Sources */ = {isa = PBXBuildFile; fileRef = 4450D90E2114001D00B282E4 /* UIFactory+Style.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -29,6 +30,8 @@
 		4450D9022113F63B00B282E4 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		4450D90A2113F76000B282E4 /* UIFactory.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UIFactory.h; sourceTree = "<group>"; };
 		4450D90B2113F76000B282E4 /* UIFactory.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = UIFactory.m; sourceTree = "<group>"; };
+		4450D90D2114001D00B282E4 /* UIFactory+Style.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIFactory+Style.h"; sourceTree = "<group>"; };
+		4450D90E2114001D00B282E4 /* UIFactory+Style.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIFactory+Style.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -80,6 +83,8 @@
 			children = (
 				4450D90A2113F76000B282E4 /* UIFactory.h */,
 				4450D90B2113F76000B282E4 /* UIFactory.m */,
+				4450D90D2114001D00B282E4 /* UIFactory+Style.h */,
+				4450D90E2114001D00B282E4 /* UIFactory+Style.m */,
 			);
 			path = UIFactory;
 			sourceTree = "<group>";
@@ -154,6 +159,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4450D90F2114001D00B282E4 /* UIFactory+Style.m in Sources */,
 				4450D90C2113F76000B282E4 /* UIFactory.m in Sources */,
 				4450D8F82113F63700B282E4 /* ViewController.m in Sources */,
 				4450D9032113F63B00B282E4 /* main.m in Sources */,

@@ -7,7 +7,13 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import <UIKit/UIKit.h>
 @interface UIFactory : NSObject
+
+//view
+
++ (UIView *)view;
++ (UIView *)viewWithFrame:(CGRect)frame;
++ (UIView *)viewWithBackgroundColor:(UIColor *)backgroundColor;
 
 @end
